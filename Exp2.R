@@ -1,0 +1,16 @@
+library(RWeka)
+N = read.arff("super_sleepers.arff")
+print(N)
+cat("\n\n\n")
+print(head(N,2))
+dim(N)
+names(N)
+N["animal"]
+N["average_sleep_hours"]
+mean(average_sleep_hours)
+max(N["average_sleep_hours"])
+min(average_sleep_hours)
+sum(average_sleep_hours)
+median(average_sleep_hours)
+sd(N$average_sleep_hours)
+summary(N)
